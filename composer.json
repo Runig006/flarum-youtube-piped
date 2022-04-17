@@ -1,0 +1,26 @@
+{
+    "name": "runig006/youtube-piped",
+    "description": "Change Youtube URL to Piped",
+    "keywords": [
+        "extension",
+        "flarum", 
+        "markdown"
+    ],
+    "type": "flarum-extension",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.1.2"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Youtube to Yewtu",
+            "category": "feature",
+            "icon": {
+                "name": "fab fa-youtube",
+                "backgroundColor": "#f70",
+                "color": "#fff"
+            }
+        }
+    }
+}

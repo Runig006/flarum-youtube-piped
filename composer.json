@@ -14,7 +14,7 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "Youtube to Yewtu",
+            "title": "Youtube to Piped",
             "category": "feature",
             "icon": {
                 "name": "fab fa-youtube",

@@ -19,9 +19,10 @@ return [
                         "!youtu\\.be/(?'id'[-0-9A-Z_a-z]+)!"
                     ],
                     'iframe'  => [
-                        'width'  => 560,
-                        'height' => 315,
-                        'src'    => 'https://piped.kavin.rocks/embed/{@id}?'
+                        'width'    => 560,
+                        'height'   => 315,
+                        'src'      => 'https://piped.kavin.rocks/embed/{@id}?autoplay=0',
+                        'autoplay' => 0,
                     ]
                 ]
             );

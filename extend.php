@@ -10,7 +10,7 @@ return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->MediaEmbed->defaultSites->delete('youtube');
-            $config->MediaEmbed->add(
+            $tag = $config->MediaEmbed->add(
                 'youtube',
                 [
                     'host'    => ['youtube.com', 'youtu.be'],
@@ -26,5 +26,6 @@ return [
                     ]
                 ]
             );
+            $tag->template = str_replace('iframe', 'embed', $tag->template);
         })
 ];

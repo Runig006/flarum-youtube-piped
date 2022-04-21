@@ -25,6 +25,5 @@ return [
                     ]
                 ]
             );
-            $tag->template = str_replace('iframe', 'embed', $tag->template);
         })
 ];

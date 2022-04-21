@@ -10,7 +10,7 @@ return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->MediaEmbed->defaultSites->delete('youtube');
-            $tag = $config->MediaEmbed->add(
+            $config->MediaEmbed->add(
                 'youtube',
                 [
                     'host'    => ['youtube.com', 'youtu.be'],
@@ -19,9 +19,9 @@ return [
                         "!youtu\\.be/(?'id'[-0-9A-Z_a-z]+)!"
                     ],
                     'iframe'  => [
-                        'width'    => 560,
-                        'height'   => 315,
-                        'src'      => 'https://invidious.fdn.fr/embed/{@id}?quality=dash&autoplay=0',
+                        'width'  => 560,
+                        'height' => 315,
+                        'src'    => 'https://invidious.fdn.fr/embed/{@id}?quality=dash&autoplay=0',
                     ]
                 ]
             );

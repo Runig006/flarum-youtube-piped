@@ -21,7 +21,7 @@ return [
                     'iframe'  => [
                         'width'  => 560,
                         'height' => 315,
-                        'src'    => 'https://invidious.fdn.fr/embed/{@id}?quality=dash&autoplay=0',
+                        'src'    => 'https://piped.kavin.rocks/embed/{@id}?quality=dash&autoplay=0',
                     ]
                 ]
             );
